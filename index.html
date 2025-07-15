@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO | E-KOR WEB TECH</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!---------------link to google font ------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,
+        400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,
+        900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#service">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class='bx bx-x' onclick="closemenu()"></i>
+            </ul>
+            <i class='bx bx-menu' onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="header_content">
+        <h3>Hello and Welcome</h3>
+        <h1>I am Emmanuel Roger <br><span>Korkollie,</span> from Liberia</h1>
+        <p>I am a Professional Graphics Designer, also a <span>Frontend Developer</span></p>
+        <p>I have via experience in Desktop Publishing Job with over 4 years of experience with <br> professional job
+            output.
+            I serve the Public with passion and with care in every piece of job.</p>
+    </div>
+</div>
+
+<!----------------- ABOUT SECTION ----------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+
+            <div class="about-col-2">
+                <img src="image/image2.jpg" alt="">
+            </div>
+
+            <div class="about-col-1">
+                <h1 class="sub-title">My Profile</h1>
+                <p>I was born unto the union of Mr. and Mrs. Goblee in Ganta City, Nimba County, Republic of Liberia.
+                    I grew up in Grand Bassa County. And later return to my home land in the year 2016 to bagin another life.
+                   I obtained a High School Diploma at the Child Friendly High School in Ganta City, Nimba County.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web Interface</li>
+                        <li><span>GRAPHICS</span><br>Graphics Designing</li>
+                        <li><span>OTHERS</span><br>Desktop Publishing</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024-PRESENT</span><br>Student, PYJ Polytechnic University</li>
+                        <li><span>2018-2019</span><br>High School Diploma</li>
+                        <li><span>2015</span><br>Technic Computer Training Certificate</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-PRESENT</span><br>Web Development</li>
+                        <li><span>2020-PRESENT</span><br>Graphics Designing</li>
+                        <li><span>2018-2020</span><br>Desktop Publishing</li>
+                    </ul>
+                </div>
+                
+
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+<!----------------- SERVICES SECTION ----------------->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class='bx bx-code-alt'></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni exercitationem perferendis</p>
+                <a href="#">View More...</a>
+            </div>
+            <div>
+                <i class='bx bxs-crop'></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni exercitationem perferendis</p>
+                <a href="#">View More...</a>
+            </div>
+            <div>
+                <i class='bx bxs-shapes'></i>
+                <h2>Graphics Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni exercitationem perferendis</p>
+                <a href="#">View More...</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!----------------- PORTFOLIO SECTION ----------------->
+
+<div id="portfolio">
+    <div class="container">
+         <h1 class="sub-title">My Designs</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="image/work1.jpg">
+                <div class="layer">
+                    <h3>Wedding Banner</h3>
+                    <p>We offer the best and quality designs of every graphics.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work2.jpg">
+                <div class="layer">
+                    <h3>Graduation Banner</h3>
+                    <p>We offer the best and quality designs of every graphics.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work5.jpg">
+                <div class="layer">
+                    <h3>Birthday Design</h3>
+                    <p>We offer the best and quality designs of every graphics.</p>
+                </div>
+            </div>
+         </div>
+         <a class="btn" href="#">See More...</a>
+    </div>
+</div>
+
+
+<!----------------- CONTACT SECTION ----------------->
+
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Let's Talk</h1>
+        <div class="row">
+
+            <div class="contact-left">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn btn2" type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+            <div class="contact-right">
+                <p><i class='bx bx-envelope'></i>rogergoblee97@gmail.com</p>
+                <p><i class='bx bxs-phone'></i>+231 778 944 470 | +231 886 949 424</p>
+                
+                <div class="social-links">
+                    <a href="https://web.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-tiktok'></i></a>
+                    <a href="https://youtube.com/"><i class='bx bxl-youtube'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+                     <a download class="btn btn2" href="image/CV.pdf">Download My CV</a>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+
+
+
+<div id="footer">
+    <p class="footer-p">@copyrights reserved by: <a href="#"><strong>E-Kor Web Tech</strong></a></p>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyr_mYmGPxPO3LSbl4qNTR6NzwJvRr2cmyP7hQi5JdOzPVgLTog7ZlVEQMAUKDln-L-BQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Your message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+
+</html>
